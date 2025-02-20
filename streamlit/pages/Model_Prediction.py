@@ -5,10 +5,7 @@ import numpy as np
 import sys
 import os
 
-# Add parent directory to path to import from src
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-from src.data_preparation import prepare_data, one_hot_encoder
-from src.data_analysis import grab_col_names
+
 
 
 def load_model():
